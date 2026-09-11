@@ -1,0 +1,102 @@
+slug,title,category,license,repo_url,website_url,is_docker_ready,documented_min_ram_mb,install_verified_os,install_verified_date,content_updated
+actual-budget,Actual Budget,personal-finance,MIT,https://github.com/actualbudget/actual,https://actualbudget.org,true,512,Ubuntu 26.04,2026-07-25,2026-07-13
+adguard-home,AdGuard Home,network-wide-ad-blocking,GPL-3.0,https://github.com/AdguardTeam/AdGuardHome,https://adguard.com/adguard-home/overview.html,true,512,Ubuntu 26.04,2026-07-25,2026-07-25
+agentarea,AgentArea,ai-agent-platforms,Apache-2.0,https://github.com/agentarea/agentarea,https://agentarea.ai,true,4096,,,2026-08-06
+anythingllm,AnythingLLM,ai-chat-interfaces,MIT,https://github.com/Mintplex-Labs/anything-llm,https://anythingllm.com,true,2048,Ubuntu 26.04,2026-07-25,2026-07-14
+appwrite,Appwrite,backend-baas,BSD-3-Clause,https://github.com/appwrite/appwrite,https://appwrite.io,true,4096,Ubuntu 26.04,2026-07-25,2026-07-14
+audiobookshelf,Audiobookshelf,media-server,GPL-3.0,https://github.com/advplyr/audiobookshelf,https://www.audiobookshelf.org,true,512,Ubuntu 26.04,2026-07-25,2026-07-13
+authelia,Authelia,sso-identity,Apache-2.0,https://github.com/authelia/authelia,https://www.authelia.com,true,256,Ubuntu 26.04,2026-08-28,2026-07-13
+authentik,authentik,sso-identity,MIT,https://github.com/goauthentik/authentik,https://goauthentik.io,true,2048,Ubuntu 26.04,2026-08-28,2026-07-13
+beszel,Beszel,monitoring,MIT,https://github.com/henrygd/beszel,https://beszel.dev,true,256,Ubuntu 26.04,2026-08-27,2026-08-28
+bitwarden,Bitwarden,password-manager,AGPL-3.0,https://github.com/bitwarden/server,https://bitwarden.com,true,2048,Ubuntu 26.04,2026-07-25,2026-08-26
+bookstack,BookStack,wiki-docs,MIT,https://github.com/BookStackApp/BookStack,https://www.bookstackapp.com,true,512,Ubuntu 26.04,2026-07-25,2026-07-13
+bugsink,Bugsink,error-tracking,PolyForm Shield 1.0.0,https://github.com/bugsink/bugsink,https://www.bugsink.com,true,256,Ubuntu 26.04,2026-08-28,2026-08-28
+caprover,CapRover,platform-as-a-service,Apache-2.0,https://github.com/caprover/caprover,https://caprover.com,true,1024,Ubuntu 26.04,2026-07-25,2026-07-13
+checkmate,Checkmate,monitoring,AGPL-3.0,https://github.com/bluewave-labs/Checkmate,https://checkmate.so,true,2048,Ubuntu 26.04,2026-08-27,2026-08-27
+coolify,Coolify,platform-as-a-service,Apache-2.0,https://github.com/coollabsio/coolify,https://coolify.io,true,2048,Ubuntu 26.04,2026-08-28,2026-07-13
+directus,Directus,backend-baas,MSCL-1.0,https://github.com/directus/directus,https://directus.io,true,512,Ubuntu 26.04,2026-07-25,2026-07-25
+docker-mailserver,docker-mailserver,mail-server,MIT,https://github.com/docker-mailserver/docker-mailserver,https://docker-mailserver.github.io/docker-mailserver,true,512,Ubuntu 26.04,2026-07-25,2026-07-25
+dokku,Dokku,platform-as-a-service,MIT,https://github.com/dokku/dokku,https://dokku.com,true,1024,Ubuntu 26.04,2026-07-25,2026-07-13
+dokploy,Dokploy,platform-as-a-service,Apache-2.0,https://github.com/Dokploy/dokploy,https://dokploy.com,true,2048,Ubuntu 26.04,2026-08-28,2026-07-25
+espocrm,EspoCRM,crm,AGPL-3.0,https://github.com/espocrm/espocrm,https://www.espocrm.com,true,1024,Ubuntu 26.04,2026-08-04,2026-08-05
+firefly-iii,Firefly III,personal-finance,AGPL-3.0,https://github.com/firefly-iii/firefly-iii,https://firefly-iii.org,true,512,Ubuntu 26.04,2026-07-25,2026-07-15
+forgejo,Forgejo,code-hosting,MIT,https://codeberg.org/forgejo/forgejo,https://forgejo.org,true,512,Ubuntu 26.04,2026-07-25,2026-07-13
+frappe-crm,Frappe CRM,crm,AGPL-3.0,https://github.com/frappe/crm,https://frappe.io/crm,true,2048,Ubuntu 26.04,2026-08-04,2026-08-05
+freshrss,FreshRSS,rss-reader,AGPL-3.0,https://github.com/FreshRSS/FreshRSS,https://freshrss.org,true,256,Ubuntu 26.04,2026-07-25,2026-07-13
+gatus,Gatus,monitoring,Apache-2.0,https://github.com/TwiN/gatus,https://gatus.io,true,256,Ubuntu 26.04,2026-08-27,2026-08-28
+gitbucket,GitBucket,code-hosting,Apache-2.0,https://github.com/gitbucket/gitbucket,https://gitbucket.github.io/,false,1024,Ubuntu 26.04,2026-08-27,2026-08-28
+gitea,Gitea,code-hosting,MIT,https://github.com/go-gitea/gitea,https://gitea.io,true,512,Ubuntu 26.04,2026-07-25,2026-07-13
+gitlab,GitLab CE,code-hosting,MIT,https://github.com/gitlabhq/gitlabhq,https://about.gitlab.com,true,8192,Ubuntu 26.04,2026-08-27,2026-08-28
+glances,Glances,monitoring,LGPL-3.0,https://github.com/nicolargo/glances,https://nicolargo.github.io/glances/,true,256,Ubuntu 26.04,2026-08-27,2026-08-27
+glitchtip,GlitchTip,error-tracking,MIT,https://gitlab.com/glitchtip,https://glitchtip.com,true,512,Ubuntu 26.04,2026-08-28,2026-08-28
+gogs,Gogs,code-hosting,MIT,https://github.com/gogs/gogs,https://gogs.io,true,512,Ubuntu 26.04,2026-08-27,2026-08-28
+gotify,Gotify,push-notifications,MIT,https://github.com/gotify/server,https://gotify.net,true,256,Ubuntu 26.04,2026-08-28,2026-07-15
+grafana,Grafana,observability,AGPL-3.0,https://github.com/grafana/grafana,https://grafana.com,true,1024,Ubuntu 26.04,2026-08-28,2026-07-14
+graylog,Graylog,observability,SSPL-1.0,https://github.com/Graylog2/graylog2-server,https://graylog.org,true,8192,Ubuntu 26.04,2026-07-25,2026-07-25
+headscale,Headscale,vpn-mesh-networking,BSD-3-Clause,https://github.com/juanfont/headscale,https://headscale.net,true,256,Ubuntu 26.04,2026-07-25,2026-07-25
+healthchecks,Healthchecks,monitoring,BSD-3-Clause,https://github.com/healthchecks/healthchecks,https://healthchecks.io,true,1024,Ubuntu 26.04,2026-08-27,2026-08-28
+home-assistant,Home Assistant,home-automation,Apache-2.0,https://github.com/home-assistant/core,https://www.home-assistant.io,true,2048,Ubuntu 26.04,2026-07-25,2026-07-13
+immich,Immich,photo-backup-gallery,AGPL-3.0,https://github.com/immich-app/immich,https://immich.app,true,4096,Ubuntu 26.04,2026-08-28,2026-07-13
+jan,Jan,ai-chat-interfaces,Apache-2.0,https://github.com/janhq/server,https://jan.ai,true,8192,Ubuntu 26.04,2026-07-25,2026-07-25
+jellyfin,Jellyfin,media-server,GPL-2.0,https://github.com/jellyfin/jellyfin,https://jellyfin.org,true,1024,Ubuntu 26.04,2026-07-25,2026-07-13
+keeweb,KeeWeb,password-manager,MIT,https://github.com/keeweb/keeweb,https://keeweb.info,true,256,Ubuntu 26.04,2026-08-26,2026-08-26
+keycloak,Keycloak,sso-identity,Apache-2.0,https://github.com/keycloak/keycloak,https://www.keycloak.org,true,1024,Ubuntu 26.04,2026-07-25,2026-07-13
+krayin,Krayin CRM,crm,MIT,https://github.com/krayin/laravel-crm,https://krayincrm.com,true,3072,Ubuntu 26.04,2026-08-04,2026-08-08
+librechat,LibreChat,ai-chat-interfaces,MIT,https://github.com/danny-avila/LibreChat,https://librechat.ai,true,2048,Ubuntu 26.04,2026-07-25,2026-07-14
+linkding,linkding,bookmarks,MIT,https://github.com/sissbruecker/linkding,https://linkding.link,true,256,Ubuntu 26.04,2026-07-25,2026-07-13
+localai,LocalAI,ai-chat-interfaces,MIT,https://github.com/mudler/LocalAI,https://localai.io,true,4096,Ubuntu 26.04,2026-07-25,2026-08-14
+mailcow,Mailcow,mail-server,GPL-3.0,https://github.com/mailcow/mailcow-dockerized,https://mailcow.email,true,6144,Ubuntu 26.04,2026-07-25,2026-07-25
+mailu,Mailu,mail-server,MIT,https://github.com/Mailu/Mailu,https://mailu.io,true,1024,Ubuntu 26.04,2026-07-25,2026-07-25
+matomo,Matomo,web-analytics,GPL-3.0,https://github.com/matomo-org/matomo,https://matomo.org,true,2048,Ubuntu 26.04,2026-07-25,2026-07-25
+mattermost,Mattermost,team-chat,AGPL-3.0,https://github.com/mattermost/mattermost,https://mattermost.com,true,2048,Ubuntu 26.04,2026-07-25,2026-07-25
+mealie,Mealie,recipes,AGPL-3.0,https://github.com/mealie-recipes/mealie,https://mealie.io,true,1024,Ubuntu 26.04,2026-07-25,2026-07-13
+miniflux,Miniflux,rss-reader,Apache-2.0,https://github.com/miniflux/v2,https://miniflux.app,true,256,Ubuntu 26.04,2026-07-25,2026-07-13
+monica,Monica,crm,AGPL-3.0,https://github.com/monicahq/monica,https://www.monicahq.com,true,1024,Ubuntu 26.04,2026-08-04,2026-08-04
+n8n,n8n,workflow-automation,Sustainable Use License,https://github.com/n8n-io/n8n,https://n8n.io,true,1024,Ubuntu 26.04,2026-07-25,2026-07-13
+navidrome,Navidrome,media-server,GPL-3.0,https://github.com/navidrome/navidrome,https://www.navidrome.org,true,256,Ubuntu 26.04,2026-07-25,2026-07-13
+netbird,NetBird,vpn-mesh-networking,BSD-3-Clause,https://github.com/netbirdio/netbird,https://docs.netbird.io,true,2048,Ubuntu 26.04,2026-07-25,2026-07-25
+netdata,Netdata,observability,GPL-3.0,https://github.com/netdata/netdata,https://www.netdata.cloud,true,256,Ubuntu 26.04,2026-07-25,2026-07-14
+nextcloud,Nextcloud,file-sync-storage,AGPL-3.0,https://github.com/nextcloud/server,https://nextcloud.com,true,1024,Ubuntu 26.04,2026-07-25,2026-07-13
+nginx-proxy-manager,Nginx Proxy Manager,reverse-proxy,MIT,https://github.com/NginxProxyManager/nginx-proxy-manager,https://nginxproxymanager.com,true,512,Ubuntu 26.04,2026-07-25,2026-07-25
+nhost,Nhost,backend-baas,MIT,https://github.com/nhost/nhost,https://nhost.io,true,2048,Ubuntu 26.04,2026-07-25,2026-07-15
+ntfy,ntfy,push-notifications,Apache-2.0,https://github.com/binwiederhier/ntfy,https://ntfy.sh,true,256,Ubuntu 26.04,2026-08-28,2026-07-25
+odoo,Odoo,erp,LGPL-3.0,https://github.com/odoo/odoo,https://www.odoo.com,true,2048,Ubuntu 26.04,2026-08-04,2026-08-05
+ollama,Ollama,ai-chat-interfaces,MIT,https://github.com/ollama/ollama,https://ollama.com,true,8192,Ubuntu 26.04,2026-07-25,2026-08-14
+onedev,OneDev,code-hosting,MIT,https://github.com/theonedev/onedev,https://onedev.io,true,2048,Ubuntu 26.04,2026-08-27,2026-08-28
+open-webui,Open WebUI,ai-chat-interfaces,Open WebUI License (modified BSD-3-Clause with a branding clause),https://github.com/open-webui/open-webui,https://openwebui.com,true,2048,Ubuntu 26.04,2026-07-25,2026-07-14
+openhands,OpenHands,ai-coding-agents,MIT,https://github.com/All-Hands-AI/OpenHands,https://openhands.dev,false,4096,Ubuntu 26.04,2026-08-05,2026-08-08
+openobserve,OpenObserve,observability,AGPL-3.0,https://github.com/openobserve/openobserve,https://openobserve.ai,true,512,Ubuntu 26.04,2026-07-25,2026-07-14
+orocrm,OroCRM,crm,OSL-3.0,https://github.com/oroinc/crm-application,https://oroinc.com/orocrm/,true,2048,Ubuntu 26.04,2026-08-04,2026-08-08
+outline,Outline,wiki-docs,BSL-1.1,https://github.com/outline/outline,https://www.getoutline.com,true,1024,Ubuntu 26.04,2026-07-25,2026-07-13
+owncloud,ownCloud,file-sync-storage,Apache-2.0,https://github.com/owncloud/ocis,https://owncloud.com,true,512,Ubuntu 26.04,2026-07-25,2026-07-15
+pangolin,Pangolin,vpn-mesh-networking,AGPL-3.0,https://github.com/fosrl/pangolin,https://docs.pangolin.net,true,1024,Ubuntu 26.04,2026-07-25,2026-07-25
+paperless-ngx,Paperless-ngx,documents,GPL-3.0,https://github.com/paperless-ngx/paperless-ngx,https://docs.paperless-ngx.com,true,2048,Ubuntu 26.04,2026-07-25,2026-07-15
+passbolt,Passbolt,password-manager,AGPL-3.0,https://github.com/passbolt/passbolt_api,https://www.passbolt.com,true,2048,Ubuntu 26.04,2026-08-26,2026-08-26
+photoprism,PhotoPrism,photo-backup-gallery,AGPL-3.0,https://github.com/photoprism/photoprism,https://photoprism.app,true,2048,Ubuntu 26.04,2026-08-28,2026-07-15
+pihole,Pi-hole,network-wide-ad-blocking,EUPL-1.2,https://github.com/pi-hole/pi-hole,https://pi-hole.net,true,512,Ubuntu 26.04,2026-07-25,2026-07-25
+plausible,Plausible,web-analytics,AGPL-3.0,https://github.com/plausible/community-edition,https://plausible.io,true,2048,Ubuntu 26.04,2026-07-25,2026-07-13
+plex,Plex,media-server,Proprietary,https://github.com/plexinc/pms-docker,https://www.plex.tv,true,2048,Ubuntu 26.04,2026-07-25,2026-07-13
+pocket-id,Pocket ID,sso-identity,BSD-2-Clause,https://github.com/pocket-id/pocket-id,https://pocket-id.org,true,256,Ubuntu 26.04,2026-08-28,2026-08-28
+pocketbase,PocketBase,backend-baas,MIT,https://github.com/pocketbase/pocketbase,https://pocketbase.io,true,512,Ubuntu 26.04,2026-07-25,2026-07-25
+prometheus,Prometheus,observability,Apache-2.0,https://github.com/prometheus/prometheus,https://prometheus.io,true,2048,Ubuntu 26.04,2026-07-25,2026-07-25
+psono,Psono,password-manager,Apache-2.0,https://gitlab.com/esaqa/psono/psono-server,https://psono.com,true,2560,Ubuntu 26.04,2026-08-26,2026-08-26
+rocket-chat,Rocket.Chat,team-chat,MIT,https://github.com/RocketChat/Rocket.Chat,https://rocket.chat,true,2048,Ubuntu 26.04,2026-07-25,2026-07-13
+signoz,SigNoz,observability,MIT,https://github.com/SigNoz/signoz,https://signoz.io,true,4096,Ubuntu 26.04,2026-08-28,2026-08-28
+soft-serve,Soft Serve,code-hosting,MIT,https://github.com/charmbracelet/soft-serve,https://github.com/charmbracelet/soft-serve,true,256,Ubuntu 26.04,2026-08-27,2026-08-28
+stalwart,Stalwart,mail-server,AGPL-3.0,https://github.com/stalwartlabs/stalwart,https://stalw.art,true,1024,Ubuntu 26.04,2026-08-28,2026-08-28
+suitecrm,SuiteCRM,crm,AGPL-3.0,https://github.com/salesagility/SuiteCRM,https://suitecrm.com,true,2048,Ubuntu 26.04,2026-08-04,2026-08-08
+supabase,Supabase,backend-baas,Apache-2.0,https://github.com/supabase/supabase,https://supabase.com,true,4096,Ubuntu 26.04,2026-07-25,2026-07-15
+syncthing,Syncthing,file-sync-storage,MPL-2.0,https://github.com/syncthing/syncthing,https://syncthing.net,true,256,Ubuntu 26.04,2026-07-25,2026-07-13
+teampass,TeamPass,password-manager,GPL-3.0,https://github.com/nilsteampassnet/TeamPass,https://www.teampass.net,true,1024,Ubuntu 26.04,2026-08-26,2026-08-26
+tinyauth,Tinyauth,sso-identity,AGPL-3.0,https://github.com/tinyauthapp/tinyauth,https://tinyauth.app,true,256,Ubuntu 26.04,2026-08-28,2026-08-28
+traefik,Traefik,reverse-proxy,MIT,https://github.com/traefik/traefik,https://traefik.io/traefik,true,256,Ubuntu 26.04,2026-07-25,2026-07-25
+twenty,Twenty,crm,AGPL-3.0,https://github.com/twentyhq/twenty,https://twenty.com,true,2048,Ubuntu 26.04,2026-08-04,2026-08-08
+umami,Umami,web-analytics,MIT,https://github.com/umami-software/umami,https://umami.is,true,1024,Ubuntu 26.04,2026-07-25,2026-07-13
+uptime-kuma,Uptime Kuma,monitoring,MIT,https://github.com/louislam/uptime-kuma,https://uptime.kuma.pet,true,512,Ubuntu 26.04,2026-08-28,2026-08-28
+vaultwarden,Vaultwarden,password-manager,AGPL-3.0,https://github.com/dani-garcia/vaultwarden,https://github.com/dani-garcia/vaultwarden,true,256,Ubuntu 26.04,2026-08-28,2026-08-26
+vllm,vLLM,ai-chat-interfaces,Apache-2.0,https://github.com/vllm-project/vllm,https://vllm.ai,true,16384,,,2026-08-13
+vtiger,Vtiger CRM,crm,Vtiger Public License 1.1,https://github.com/vtiger-crm/vtigercrm,https://www.vtiger.com/open-source-crm/,true,1024,Ubuntu 26.04,2026-08-04,2026-08-04
+wallabag,Wallabag,read-it-later,MIT,https://github.com/wallabag/wallabag,https://wallabag.org,true,512,Ubuntu 26.04,2026-07-25,2026-07-13
+wg-easy,wg-easy,vpn-mesh-networking,AGPL-3.0,https://github.com/wg-easy/wg-easy,https://wg-easy.github.io/wg-easy/latest/,true,256,Ubuntu 26.04,2026-07-25,2026-07-25
+zabbix,Zabbix,monitoring,AGPL-3.0,https://github.com/zabbix/zabbix,https://www.zabbix.com,true,4096,Ubuntu 26.04,2026-08-27,2026-08-27
+zitadel,Zitadel,sso-identity,AGPL-3.0,https://github.com/zitadel/zitadel,https://zitadel.com,true,1024,Ubuntu 26.04,2026-08-28,2026-07-13
