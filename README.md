@@ -64,7 +64,7 @@ if you only want verified rows.
   "license": "CC-BY-4.0",
   "attribution": "SelfHost Atlas — https://selfhostatlas.com",
   "methodology": "https://selfhostatlas.com/how-we-test",
-  "record_count": 101,
+  "record_count": 106,
   "records": [ /* … sorted by slug … */ ]
 }
 ```

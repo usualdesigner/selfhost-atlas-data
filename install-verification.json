@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-09-10T19:07:01.297Z",
+  "generated_at": "2026-09-11T05:32:28.086Z",
   "license": "CC-BY-4.0",
   "attribution": "SelfHost Atlas — https://selfhostatlas.com",
   "methodology": "https://selfhostatlas.com/how-we-test",
-  "record_count": 101,
+  "record_count": 106,
   "records": [
     {
       "slug": "actual-budget",
@@ -365,7 +365,7 @@
       "repo_url": "https://github.com/gitlabhq/gitlabhq",
       "website_url": "https://about.gitlab.com",
       "is_docker_ready": true,
-      "documented_min_ram_mb": 8192,
+      "documented_min_ram_mb": 16384,
       "install_verified_os": "Ubuntu 26.04",
       "install_verified_date": "2026-08-27",
       "content_updated": "2026-08-28"
@@ -564,6 +564,19 @@
       "install_verified_os": "Ubuntu 26.04",
       "install_verified_date": "2026-08-04",
       "content_updated": "2026-08-08"
+    },
+    {
+      "slug": "leantime",
+      "title": "Leantime",
+      "category": "project-management",
+      "license": "AGPL-3.0",
+      "repo_url": "https://github.com/Leantime/leantime",
+      "website_url": "https://leantime.io",
+      "is_docker_ready": true,
+      "documented_min_ram_mb": 1024,
+      "install_verified_os": "Ubuntu 24.04",
+      "install_verified_date": "2026-09-11",
+      "content_updated": "2026-09-10"
     },
     {
       "slug": "librechat",
@@ -878,6 +891,19 @@
       "content_updated": "2026-07-14"
     },
     {
+      "slug": "openproject",
+      "title": "OpenProject",
+      "category": "project-management",
+      "license": "GPL-3.0",
+      "repo_url": "https://github.com/opf/openproject",
+      "website_url": "https://www.openproject.org",
+      "is_docker_ready": true,
+      "documented_min_ram_mb": 4096,
+      "install_verified_os": "Ubuntu 24.04",
+      "install_verified_date": "2026-09-11",
+      "content_updated": "2026-09-10"
+    },
+    {
       "slug": "orocrm",
       "title": "OroCRM",
       "category": "crm",
@@ -980,6 +1006,19 @@
       "install_verified_os": "Ubuntu 26.04",
       "install_verified_date": "2026-07-25",
       "content_updated": "2026-07-25"
+    },
+    {
+      "slug": "plane",
+      "title": "Plane",
+      "category": "project-management",
+      "license": "AGPL-3.0",
+      "repo_url": "https://github.com/makeplane/plane",
+      "website_url": "https://plane.so",
+      "is_docker_ready": true,
+      "documented_min_ram_mb": 4096,
+      "install_verified_os": "Ubuntu 24.04",
+      "install_verified_date": "2026-09-11",
+      "content_updated": "2026-09-10"
     },
     {
       "slug": "plausible",
@@ -1151,6 +1190,19 @@
       "content_updated": "2026-07-13"
     },
     {
+      "slug": "taiga",
+      "title": "Taiga",
+      "category": "project-management",
+      "license": "MPL-2.0",
+      "repo_url": "https://github.com/taigaio/taiga-docker",
+      "website_url": "https://taiga.io",
+      "is_docker_ready": true,
+      "documented_min_ram_mb": 2048,
+      "install_verified_os": "Ubuntu 24.04",
+      "install_verified_date": "2026-09-11",
+      "content_updated": "2026-09-10"
+    },
+    {
       "slug": "teampass",
       "title": "TeamPass",
       "category": "password-manager",
@@ -1240,6 +1292,19 @@
       "install_verified_os": "Ubuntu 26.04",
       "install_verified_date": "2026-08-28",
       "content_updated": "2026-08-26"
+    },
+    {
+      "slug": "vikunja",
+      "title": "Vikunja",
+      "category": "project-management",
+      "license": "AGPL-3.0",
+      "repo_url": "https://github.com/go-vikunja/vikunja",
+      "website_url": "https://vikunja.io",
+      "is_docker_ready": true,
+      "documented_min_ram_mb": 1024,
+      "install_verified_os": "Ubuntu 24.04",
+      "install_verified_date": "2026-09-11",
+      "content_updated": "2026-09-10"
     },
     {
       "slug": "vllm",
