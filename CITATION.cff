@@ -5,8 +5,6 @@ title: "SelfHost Atlas install-verification dataset"
 authors:
   - name: "SelfHost Atlas"
     website: "https://selfhostatlas.com"
-version: "1.1.0"
-date-released: "2026-09-26"
 license: CC-BY-4.0
 doi: "10.5281/zenodo.22983606"
 url: "https://selfhostatlas.com/how-we-test"
