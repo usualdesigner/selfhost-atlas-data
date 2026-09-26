@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below. Quote the generated_at date of the copy you used — rows change between exports."
+type: dataset
+title: "SelfHost Atlas install-verification dataset"
+authors:
+  - name: "SelfHost Atlas"
+    website: "https://selfhostatlas.com"
+version: "1.1.0"
+date-released: "2026-09-26"
+license: CC-BY-4.0
+url: "https://selfhostatlas.com/how-we-test"
+repository: "https://github.com/usualdesigner/selfhost-atlas-data"
+abstract: >-
+  Self-hostable applications whose published install instructions were run
+  unmodified on a fresh cloud server, with the OS and date of each run, plus
+  idle first-boot RAM and disk measured on a named machine for a subset.
+  Documented minimum RAM is included and labelled as documented, not measured.
+keywords:
+  - self-hosted
+  - docker
+  - install verification
+  - open data
