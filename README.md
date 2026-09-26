@@ -1,5 +1,7 @@
 # SelfHost Atlas — install-verification dataset
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22983606.svg)](https://doi.org/10.5281/zenodo.22983606)
+
 An open dataset of self-hostable applications whose published install
 instructions have been **run on a real, fresh server** — recording which OS the
 run happened on and when.
@@ -7,6 +9,7 @@ run happened on and when.
 - **Files:** `install-verification.json`, `install-verification.csv` (same
   records, same field order)
 - **Licence:** [CC BY 4.0](./LICENSE)
+- **DOI:** [`10.5281/zenodo.22983606`](https://doi.org/10.5281/zenodo.22983606) (all versions; each release also gets its own)
 - **Methodology:** <https://selfhostatlas.com/how-we-test>
 - **Source:** <https://selfhostatlas.com>
 - **Explore in the browser:** [open in Datasette Lite](https://lite.datasette.io/?csv=https://raw.githubusercontent.com/usualdesigner/selfhost-atlas-data/main/install-verification.csv) — no install
@@ -122,7 +125,7 @@ JSON, because rows change between exports.
 
 > SelfHost Atlas (2026). *SelfHost Atlas install-verification dataset*
 > (schema 1.1.0, generated YYYY-MM-DD) [Data set].
-> https://github.com/usualdesigner/selfhost-atlas-data.
+> https://doi.org/10.5281/zenodo.22983606.
 > Licensed CC BY 4.0.
 
 ```bibtex
@@ -130,12 +133,13 @@ JSON, because rows change between exports.
   author       = {{SelfHost Atlas}},
   title        = {SelfHost Atlas install-verification dataset},
   year         = {2026},
-  howpublished = {\url{https://github.com/usualdesigner/selfhost-atlas-data}},
+  doi          = {10.5281/zenodo.22983606},
+  howpublished = {\url{https://doi.org/10.5281/zenodo.22983606}},
   note         = {Schema 1.1.0, generated YYYY-MM-DD. CC BY 4.0.}
 }
 ```
 
-GitHub's **Cite this repository** button (from `CITATION.cff`) gives the same in APA and BibTeX. A DOI will be added here when the dataset is archived on Zenodo.
+GitHub's **Cite this repository** button (from `CITATION.cff`) gives the same in APA and BibTeX. Each GitHub release is archived on Zenodo; the DOI above always resolves to the latest version.
 
 ## JSON envelope
 
