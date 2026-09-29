@@ -1,12 +1,26 @@
 {
   "upload_type": "dataset",
   "title": "SelfHost Atlas install-verification dataset",
-  "creators": [{ "name": "SelfHost Atlas" }],
-  "description": "Self-hostable applications whose published install instructions were run unmodified on a fresh cloud server, with the OS and date of each run, plus idle first-boot RAM and disk measured on a named machine for a subset. Documented minimum RAM is included and labelled as documented, not measured. Methodology: https://selfhostatlas.com/how-we-test",
+  "creators": [
+    {
+      "name": "SelfHost Atlas"
+    }
+  ],
+  "description": "Self-hostable applications whose published install instructions were run end to end on a fresh cloud server (placeholder hostnames swapped for a real one, recorded in the transcript), with the OS and date of each run, plus idle first-boot RAM and disk measured on a named machine for a subset. Documented minimum RAM is included and labelled as documented, not measured. Also includes catalog.json / catalog.csv (catalog metadata: category, license, stack, difficulty, SaaS it replaces). Methodology: https://selfhostatlas.com/how-we-test",
   "license": "cc-by-4.0",
   "access_right": "open",
-  "keywords": ["self-hosted", "docker", "install verification", "open data"],
+  "keywords": [
+    "self-hosted",
+    "docker",
+    "install verification",
+    "open data",
+    "memory usage"
+  ],
   "related_identifiers": [
-    { "identifier": "https://selfhostatlas.com/how-we-test", "relation": "isDocumentedBy", "resource_type": "publication-other" }
+    {
+      "identifier": "https://selfhostatlas.com/how-we-test",
+      "relation": "isDocumentedBy",
+      "resource_type": "publication-other"
+    }
   ]
 }
