@@ -25,15 +25,15 @@ documented rather than observed.
 
 | Status | Fields | Meaning |
 |---|---|---|
-| **Measured** | `install_verified_os`, `install_verified_date` | A real install run happened: the app's published install snippet was executed on a clean instance of that OS, on that date, and reached a working state. |
+| **Measured** | `install_verified_os`, `install_verified_date` | A real install run happened: the app's published install snippet was executed on a cloud VM running that OS, on that date, and every step exited successfully. |
 | **Measured** | `measured_ram_mb`, `measured_disk_mb`, `measured_box`, `measured_on` | Observed footprint **at idle, immediately after first boot**, on the machine named in `measured_box`. Taken on a box pruned of every prior app, so the disk figure is this app's alone. **Never under load, and never a capacity recommendation.** |
 | **Documented, not measured** | `documented_min_ram_mb` | The minimum RAM the upstream project documents, or SelfHost Atlas's sizing recommendation where upstream documents none. Values sit on standard instance tiers (256/512/1024/2048…). **This is a recommendation, not an observation.** Do not cite it as measured memory usage. |
 | **Catalog metadata** | `slug`, `title`, `category`, `license`, `repo_url`, `website_url`, `is_docker_ready`, `content_updated` | Facts about the project and about our page, not measurements of a running system. |
 | **Not present** | CPU usage, setup time, maintenance time | These are **not yet measured**, so they are not in the export at all — not even as null columns. They will appear only once real measurements exist. |
 
 **`documented_min_ram_mb` and `measured_ram_mb` answer different questions and
-routinely disagree by an order of magnitude.** Vaultwarden documents 512 MB and
-idles at 7 MB; Checkmate documents 2048 MB and idles at 228 MB. Neither figure
+routinely disagree by an order of magnitude.** Vaultwarden documents 256 MB and
+idles at 7 MB; PhotoPrism documents 2048 MB and idles at 102 MB. Neither figure
 corrects the other: size a server with the documented minimum, budget for the
 real world with the measured one. A row can carry one, both, or neither.
 
@@ -56,7 +56,7 @@ publishing a documented value as a measured one would be a false claim.
 | `documented_min_ram_mb` | integer | no | Documented/recommended minimum RAM in MB — **see the table above** |
 | `install_verified_os` | string | yes | OS the install run happened on (e.g. `Ubuntu 26.04`). Null = not yet verified |
 | `install_verified_date` | date (`YYYY-MM-DD`) | yes | Date of that run. Null = not yet verified |
-| `measured_ram_mb` | integer | yes | Observed idle RSS at first boot, in MB. Null = not measured |
+| `measured_ram_mb` | integer | yes | Observed idle container memory (sum of `docker stats` usage) 30 s after first boot, in MB. Null = not measured |
 | `measured_disk_mb` | integer | yes | Observed image + volume footprint, in MB. Null = not measured. May be null while `measured_ram_mb` is set, when a run's disk reading was not isolated |
 | `measured_box` | string | yes | The machine the figures were taken on, e.g. `GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.7.2`. **Non-null whenever either figure is** — an unattributed measurement is not published |
 | `measured_on` | date (`YYYY-MM-DD`) | yes | Date of the measurement run |
@@ -75,13 +75,15 @@ if you only want verified rows.
 Everything measured comes from one harness, `scripts/verify-install.ts`, run
 by `scripts/sweep-installs.sh` against a throwaway cloud VM:
 
-1. **Fresh host per app.** The box is reset between apps — containers, volumes,
-   networks, images and build cache pruned — so nothing from a previous app is
+1. **Clean host per app.** One throwaway VM, reset between apps — containers,
+   volumes, networks, images and build cache pruned — so nothing from a previous app is
    counted.
 2. **Install verification.** The app's own documented install commands are
-   executed end to end, unmodified, under a hard timeout. If the app reaches a
-   working state, `install_verified_os` / `install_verified_date` record the
-   host OS and the run date. A failure leaves both null.
+   executed end to end — placeholder hostnames swapped for a real one, recorded
+   in the transcript — under a hard timeout. If every step exits successfully,
+   `install_verified_os` / `install_verified_date` record the
+   host OS and the run date. A failure normally leaves both null;
+   interactive installers are driven through a terminal.
 3. **RAM.** After the install completes the harness waits 30 seconds, then sums
    the memory usage `docker stats` reports for every running container. That is
    container memory at idle, immediately after first boot — not RSS of a single
@@ -146,11 +148,11 @@ GitHub's **Cite this repository** button (from `CITATION.cff`) gives the same in
 ```json
 {
   "schema_version": "1.1.0",
-  "generated_at": "2026-09-10T00:00:00.000Z",
+  "generated_at": "2026-09-26T21:32:47.328Z",
   "license": "CC-BY-4.0",
   "attribution": "SelfHost Atlas — https://selfhostatlas.com",
   "methodology": "https://selfhostatlas.com/how-we-test",
-  "record_count": 106,
+  "record_count": 118,
   "records": [ /* … sorted by slug … */ ]
 }
 ```
@@ -169,6 +171,36 @@ Regenerated when the catalog changes — in practice after each install-sweep ru
 and each content wave, roughly monthly. `generated_at` in the JSON is the
 authoritative export timestamp; the per-record `install_verified_date` is what
 tells you how old any individual observation is.
+
+## Catalog dataset
+
+A second, independent export: `catalog.json` / `catalog.csv`, generated by
+`scripts/export-catalog.ts` (also run by `npm run data:export`). Same
+directory, same CC BY 4.0 licence, same attribution requirement as the
+install-verification dataset above — but its own contract: **catalog
+metadata**, not "measured install verification".
+
+| Field | Type | Nullable | Description |
+|---|---|---|---|
+| `slug` | string | no | Stable identifier. Page: `https://selfhostatlas.com/self-host/<slug>` |
+| `title` | string | no | Project name as commonly written |
+| `category` | string | yes | Category slug (e.g. `photos`, `password-managers`) |
+| `license` | string | no | SPDX-style short identifier (e.g. `AGPL-3.0`, `MIT`) |
+| `stack` | string[] | no | Runtime/language tags (e.g. `["node", "postgres"]`) |
+| `is_self_hostable` | boolean | no | The app can be run entirely on your own infrastructure |
+| `is_docker_ready` | boolean | no | Upstream publishes an official container image or Compose file |
+| `difficulty` | integer | no | Editorial setup-difficulty rating |
+| `documented_min_ram_mb` | integer | no | Documented/recommended minimum RAM in MB — a recommendation, not a measurement (see the install-verification table above) |
+| `alternative_to_saas` | string[] | no | Slugs of the SaaS products this app is pitched as an alternative to, in editorial order. Empty array if none |
+
+**Not present:** `is_externally_dependent` (whether the app depends on a
+third-party hosted service it doesn't control) and `sso_support` (`none` /
+`built-in` / `plugin` / `enterprise-only`) are catalog facts the site tracks
+in `apps`, but they are 0/N populated in the database as of this export — the
+classification backfill hasn't run yet — so, matching the
+install-verification table's own omission precedent above, they are left out
+entirely rather than published as an always-null "not yet classified" field.
+They'll appear in a future export once real classification data exists.
 
 ## How to attribute
 
