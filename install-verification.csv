@@ -2,6 +2,7 @@ slug,title,category,license,repo_url,website_url,is_docker_ready,documented_min_
 activepieces,Activepieces,workflow-automation,MIT,https://github.com/activepieces/activepieces,https://www.activepieces.com,true,4096,Ubuntu 26.04,2026-09-28,858,2800,GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.8.1,2026-09-28,2026-09-18
 actual-budget,Actual Budget,personal-finance,MIT,https://github.com/actualbudget/actual,https://actualbudget.org,true,512,Ubuntu 26.04,2026-09-28,241,505,GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.8.1,2026-09-28,2026-07-13
 adguard-home,AdGuard Home,network-wide-ad-blocking,GPL-3.0,https://github.com/AdguardTeam/AdGuardHome,https://adguard.com/adguard-home/overview.html,true,512,Ubuntu 26.04,2026-09-28,11,109,GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.8.1,2026-09-28,2026-09-19
+affine,AFFiNE,notes,MIT (client) + AFFiNE EE License (server; Community Edition parts MPL-2.0),https://github.com/toeverything/AFFiNE,https://affine.pro,true,2048,Ubuntu 26.04,2026-09-29,213,1543,GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.8.1,2026-09-29,2026-09-29
 agentarea,AgentArea,ai-agent-platforms,Apache-2.0,https://github.com/agentarea/agentarea,https://agentarea.ai,true,4096,,,,,,,2026-09-19
 anythingllm,AnythingLLM,ai-chat-interfaces,MIT,https://github.com/Mintplex-Labs/anything-llm,https://anythingllm.com,true,2048,Ubuntu 26.04,2026-09-28,323,4580,GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.8.1,2026-09-28,2026-07-14
 appwrite,Appwrite,backend-baas,BSD-3-Clause,https://github.com/appwrite/appwrite,https://appwrite.io,true,4096,Ubuntu 26.04,2026-07-25,,,,,2026-07-14
@@ -9,15 +10,21 @@ audiobookshelf,Audiobookshelf,media-server,GPL-3.0,https://github.com/advplyr/au
 authelia,Authelia,sso-identity,Apache-2.0,https://github.com/authelia/authelia,https://www.authelia.com,true,256,Ubuntu 26.04,2026-08-28,30,504,GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.7.2,2026-08-28,2026-07-13
 authentik,authentik,sso-identity,MIT,https://github.com/goauthentik/authentik,https://goauthentik.io,true,2048,Ubuntu 26.04,2026-08-28,516,2277,GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.7.2,2026-08-28,2026-07-13
 baserow,Baserow,no-code-database,MIT,https://github.com/baserow/baserow,https://baserow.io,true,2048,Ubuntu 26.04,2026-09-28,1167,2318,GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.8.1,2026-09-28,2026-09-27
+bazarr,Bazarr,media-automation,GPL-3.0,https://github.com/morpheus65535/bazarr,https://www.bazarr.media,true,256,Ubuntu 26.04,2026-09-29,173,613,GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.8.1,2026-09-29,2026-09-29
 beszel,Beszel,monitoring,MIT,https://github.com/henrygd/beszel,https://beszel.dev,true,256,Ubuntu 26.04,2026-08-27,,,,,2026-08-28
 bitwarden,Bitwarden,password-manager,AGPL-3.0,https://github.com/bitwarden/server,https://bitwarden.com,true,2048,Ubuntu 26.04,2026-07-25,,,,,2026-08-26
 bookstack,BookStack,wiki-docs,MIT,https://github.com/BookStackApp/BookStack,https://www.bookstackapp.com,false,512,Ubuntu 26.04,2026-09-28,93,1194,GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.8.1,2026-09-28,2026-07-13
 bugsink,Bugsink,error-tracking,PolyForm Shield 1.0.0,https://github.com/bugsink/bugsink,https://www.bugsink.com,true,256,Ubuntu 26.04,2026-09-28,204,346,GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.8.1,2026-09-28,2026-08-28
 caddy,Caddy,reverse-proxy,Apache-2.0,https://github.com/caddyserver/caddy,https://caddyserver.com,true,256,,,,,,,2026-09-27
+cal-diy,Cal.diy,scheduling,MIT,https://github.com/calcom/cal.diy,https://cal.diy,false,2048,Ubuntu 26.04,2026-09-29,,,,,2026-09-29
+calibre-web,Calibre-Web,e-books-comics,GPL-3.0,https://github.com/janeczku/calibre-web,https://github.com/janeczku/calibre-web,true,512,Ubuntu 26.04,2026-09-29,147,1090,GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.8.1,2026-09-29,2026-09-29
 caprover,CapRover,platform-as-a-service,Apache-2.0,https://github.com/caprover/caprover,https://caprover.com,true,1024,Ubuntu 26.04,2026-09-28,,,,,2026-07-13
 chatwoot,Chatwoot,helpdesk,MIT,https://github.com/chatwoot/chatwoot,https://www.chatwoot.com,true,4096,,,,,,,2026-09-27
 checkmate,Checkmate,monitoring,AGPL-3.0,https://github.com/bluewave-labs/Checkmate,https://checkmate.so,true,2048,Ubuntu 26.04,2026-09-28,260,2658,GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.8.1,2026-09-28,2026-09-11
+collabora,Collabora Online,office-suite,MPL-2.0,https://github.com/CollaboraOnline/online,https://www.collaboraonline.com,true,2048,Ubuntu 26.04,2026-09-29,571,2133,GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.8.1,2026-09-29,2026-09-29
 coolify,Coolify,platform-as-a-service,Apache-2.0,https://github.com/coollabsio/coolify,https://coolify.io,true,2048,Ubuntu 26.04,2026-09-28,,,,,2026-07-13
+copyparty,copyparty,file-sharing,MIT,https://github.com/9001/copyparty,https://copyparty.eu,true,256,Ubuntu 26.04,2026-09-29,37,135,GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.8.1,2026-09-29,2026-09-29
+dashy,Dashy,dashboards,MIT,https://github.com/Lissy93/dashy,https://dashy.to,true,256,Ubuntu 26.04,2026-09-29,40,512,GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.8.1,2026-09-29,2026-09-29
 directus,Directus,backend-baas,MSCL-1.0,https://github.com/directus/directus,https://directus.io,true,512,Ubuntu 26.04,2026-09-28,313,2034,GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.8.1,2026-09-28,2026-07-25
 discourse,Discourse,forum,GPL-2.0-or-later,https://github.com/discourse/discourse,https://www.discourse.org,true,1024,,,,,,,2026-09-27
 docker-mailserver,docker-mailserver,mail-server,MIT,https://github.com/docker-mailserver/docker-mailserver,https://docker-mailserver.github.io/docker-mailserver,true,512,Ubuntu 26.04,2026-07-25,94,1167,GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.7.2,2026-08-28,2026-07-25
@@ -31,9 +38,12 @@ emby,Emby,media-server,Proprietary,,https://emby.media,true,2048,Ubuntu 26.04,20
 ente,Ente,photo-backup-gallery,AGPL-3.0,https://github.com/ente/ente,https://ente.com,true,1024,,,,,,,2026-09-27
 erpnext,ERPNext,erp,GPL-3.0,https://github.com/frappe/erpnext,https://frappe.io/erpnext,true,4096,,,,,,,2026-09-27
 espocrm,EspoCRM,crm,AGPL-3.0,https://github.com/espocrm/espocrm,https://www.espocrm.com,true,1024,Ubuntu 26.04,2026-09-28,107,1844,GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.8.1,2026-09-28,2026-08-05
+excalidraw,Excalidraw,whiteboard,MIT,https://github.com/excalidraw/excalidraw,https://excalidraw.com,true,128,Ubuntu 26.04,2026-09-29,4,137,GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.8.1,2026-09-29,2026-09-29
+filebrowser-quantum,FileBrowser Quantum,file-sync-storage,Apache-2.0,https://github.com/gtsteffaniak/filebrowser,https://filebrowserquantum.com,true,512,Ubuntu 26.04,2026-09-29,41,269,GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.8.1,2026-09-29,2026-09-29
 firefly-iii,Firefly III,personal-finance,AGPL-3.0,https://github.com/firefly-iii/firefly-iii,https://firefly-iii.org,true,512,Ubuntu 26.04,2026-09-28,159,1972,GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.8.1,2026-09-28,2026-07-15
 flarum,Flarum,forum,MIT,https://github.com/flarum/framework,https://flarum.org,false,512,,,,,,,2026-09-27
 forgejo,Forgejo,code-hosting,GPL-3.0-or-later,https://codeberg.org/forgejo/forgejo,https://forgejo.org,true,512,Ubuntu 26.04,2026-09-28,100,383,GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.8.1,2026-09-28,2026-09-19
+formbricks,Formbricks,forms-surveys,AGPL-3.0,https://github.com/formbricks/formbricks,https://formbricks.com,true,4096,Ubuntu 26.04,2026-09-29,866,5216,GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.8.1,2026-09-29,2026-09-29
 frappe-crm,Frappe CRM,crm,AGPL-3.0,https://github.com/frappe/crm,https://frappe.io/crm,true,2048,Ubuntu 26.04,2026-08-08,,,,,2026-08-05
 freescout,FreeScout,helpdesk,AGPL-3.0,https://github.com/freescout-help-desk/freescout,https://freescout.net,false,1024,,,,,,,2026-09-27
 freshrss,FreshRSS,rss-reader,AGPL-3.0,https://github.com/FreshRSS/FreshRSS,https://freshrss.org,true,256,Ubuntu 26.04,2026-09-28,16,356,GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.8.1,2026-09-28,2026-09-19
@@ -42,36 +52,55 @@ ghostfolio,Ghostfolio,personal-finance,AGPL-3.0,https://github.com/ghostfolio/gh
 gitbucket,GitBucket,code-hosting,Apache-2.0,https://github.com/gitbucket/gitbucket,https://gitbucket.github.io/,false,1024,Ubuntu 26.04,2026-08-27,,,,,2026-08-28
 gitea,Gitea,code-hosting,MIT,https://github.com/go-gitea/gitea,https://gitea.io,true,512,Ubuntu 26.04,2026-09-28,79,373,GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.8.1,2026-09-28,2026-07-13
 gitlab,GitLab CE,code-hosting,MIT,https://github.com/gitlabhq/gitlabhq,https://about.gitlab.com,true,16384,Ubuntu 26.04,2026-08-27,,,,,2026-08-28
+glance,Glance,dashboards,AGPL-3.0,https://github.com/glanceapp/glance,https://github.com/glanceapp/glance,true,128,Ubuntu 26.04,2026-09-29,6,34,GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.8.1,2026-09-29,2026-09-29
 glances,Glances,monitoring,LGPL-3.0,https://github.com/nicolargo/glances,https://nicolargo.github.io/glances/,true,256,Ubuntu 26.04,2026-08-27,,,,,2026-08-27
 glitchtip,GlitchTip,error-tracking,MIT,https://gitlab.com/glitchtip,https://glitchtip.com,true,512,Ubuntu 26.04,2026-09-28,181,1765,GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.8.1,2026-09-28,2026-08-28
 goatcounter,GoatCounter,web-analytics,EUPL-1.2,https://github.com/arp242/goatcounter,https://www.goatcounter.com,true,256,,,,,,,2026-09-18
 gogs,Gogs,code-hosting,MIT,https://github.com/gogs/gogs,https://gogs.io,true,512,Ubuntu 26.04,2026-09-28,39,181,GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.8.1,2026-09-28,2026-08-28
 gotify,Gotify,push-notifications,MIT,https://github.com/gotify/server,https://gotify.net,true,256,Ubuntu 26.04,2026-08-28,5,201,GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.7.2,2026-08-28,2026-07-15
+gotosocial,GoToSocial,social-network-fediverse,AGPL-3.0,https://codeberg.org/superseriousbusiness/gotosocial,https://gotosocial.org,true,1024,Ubuntu 26.04,2026-09-29,435,221,GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.8.1,2026-09-29,2026-09-29
 grafana,Grafana,observability,AGPL-3.0,https://github.com/grafana/grafana,https://grafana.com,true,1024,Ubuntu 26.04,2026-08-28,159,1450,GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.8.0,2026-09-13,2026-07-14
-graylog,Graylog,observability,SSPL-1.0,https://github.com/Graylog2/graylog2-server,https://graylog.org,true,8192,Ubuntu 26.04,2026-09-28,706,5497,GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.8.1,2026-09-28,2026-07-25
+graylog,Graylog,observability,SSPL-1.0,https://github.com/Graylog2/graylog2-server,https://graylog.org,true,8192,Ubuntu 26.04,2026-09-28,2998,5503,GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.8.1,2026-09-29,2026-09-29
+grocy,Grocy,inventory,MIT,https://github.com/grocy/grocy,https://grocy.info,false,256,Ubuntu 26.04,2026-09-29,18,404,GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.8.1,2026-09-29,2026-09-29
 headscale,Headscale,vpn-mesh-networking,BSD-3-Clause,https://github.com/juanfont/headscale,https://headscale.net,true,256,Ubuntu 26.04,2026-07-25,,,,,2026-07-25
 healthchecks,Healthchecks,monitoring,BSD-3-Clause,https://github.com/healthchecks/healthchecks,https://healthchecks.io,true,1024,Ubuntu 26.04,2026-08-27,274,1894,GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.7.2,2026-08-28,2026-08-28
+heyform,HeyForm,forms-surveys,AGPL-3.0,https://github.com/heyform/heyform,https://heyform.net,true,1024,Ubuntu 26.04,2026-09-29,239,2597,GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.8.1,2026-09-29,2026-09-29
+homarr,Homarr,dashboards,Apache-2.0,https://github.com/homarr-labs/homarr,https://homarr.dev,true,500,Ubuntu 26.04,2026-09-29,135,577,GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.8.1,2026-09-29,2026-09-29
 home-assistant,Home Assistant,home-automation,Apache-2.0,https://github.com/home-assistant/core,https://www.home-assistant.io,true,2048,Ubuntu 26.04,2026-09-28,340,3326,GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.8.1,2026-09-28,2026-09-19
+homebox,Homebox,inventory,AGPL-3.0,https://github.com/sysadminsmedia/homebox,https://homebox.software,true,256,Ubuntu 26.04,2026-09-29,16,191,GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.8.1,2026-09-29,2026-09-29
+homepage,Homepage,dashboards,GPL-3.0,https://github.com/gethomepage/homepage,https://gethomepage.dev,true,256,Ubuntu 26.04,2026-09-29,102,347,GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.8.1,2026-09-29,2026-09-29
 huginn,Huginn,workflow-automation,MIT,https://github.com/huginn/huginn,https://github.com/huginn/huginn,true,1024,Ubuntu 26.04,2026-09-28,510,4536,GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.8.1,2026-09-28,2026-09-18
 immich,Immich,photo-backup-gallery,AGPL-3.0,https://github.com/immich-app/immich,https://immich.app,true,6144,Ubuntu 26.04,2026-08-28,1940,5836,GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.7.2,2026-08-28,2026-07-13
+it-tools,IT Tools,developer-tools,GPL-3.0,https://github.com/CorentinTh/it-tools,https://it-tools.tech,true,64,Ubuntu 26.04,2026-09-29,4,81,GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.8.1,2026-09-29,2026-09-29
 jan,Jan,ai-chat-interfaces,Apache-2.0,https://github.com/janhq/server,https://jan.ai,true,8192,Ubuntu 26.04,2026-07-25,,,,,2026-07-25
 jellyfin,Jellyfin,media-server,GPL-2.0,https://github.com/jellyfin/jellyfin,https://jellyfin.org,true,1024,Ubuntu 26.04,2026-09-28,170,2362,GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.8.1,2026-09-28,2026-07-13
+joplin-server,Joplin Server,notes,Joplin Server Personal Use License,https://github.com/laurent22/joplin,https://joplinapp.org,true,1024,Ubuntu 26.04,2026-09-29,348,1561,GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.8.1,2026-09-29,2026-09-29
 karakeep,Karakeep,bookmarks,AGPL-3.0,https://github.com/karakeep-app/karakeep,https://karakeep.app,true,2048,Ubuntu 26.04,2026-09-29,679,2826,GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.8.1,2026-09-29,2026-09-27
+kavita,Kavita,e-books-comics,GPL-3.0,https://github.com/Kareadita/Kavita,https://www.kavitareader.com,true,512,Ubuntu 26.04,2026-09-29,327,859,GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.8.1,2026-09-29,2026-09-29
 keeweb,KeeWeb,password-manager,MIT,https://github.com/keeweb/keeweb,https://keeweb.info,true,256,Ubuntu 26.04,2026-09-28,7,77,GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.8.1,2026-09-28,2026-08-26
+keila,Keila,newsletter,AGPL-3.0,https://github.com/pentacent/keila,https://www.keila.io,true,512,Ubuntu 26.04,2026-09-29,291,897,GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.8.1,2026-09-29,2026-09-29
 keycloak,Keycloak,sso-identity,Apache-2.0,https://github.com/keycloak/keycloak,https://www.keycloak.org,true,1024,Ubuntu 26.04,2026-07-25,,,,,2026-07-13
+komga,Komga,e-books-comics,MIT,https://github.com/gotson/komga,https://komga.org,true,1024,Ubuntu 26.04,2026-09-29,406,717,GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.8.1,2026-09-29,2026-09-29
+komodo,Komodo,platform-as-a-service,GPL-3.0,https://github.com/moghtech/komodo,https://komo.do,true,1024,Ubuntu 26.04,2026-09-29,110,3794,GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.8.1,2026-09-29,2026-09-29
 kopia,Kopia,backup,Apache-2.0,https://github.com/kopia/kopia,https://kopia.io,true,512,Ubuntu 26.04,2026-09-28,7,300,GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.8.1,2026-09-28,2026-09-27
 krayin,Krayin CRM,crm,MIT,https://github.com/krayin/laravel-crm,https://krayincrm.com,true,3072,Ubuntu 26.04,2026-09-29,466,8238,GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.8.1,2026-09-29,2026-08-08
+kutt,Kutt,url-shortener,MIT,https://github.com/thedevs-network/kutt,https://kutt.to,true,256,Ubuntu 26.04,2026-09-29,156,471,GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.8.1,2026-09-29,2026-09-29
 leantime,Leantime,project-management,AGPL-3.0,https://github.com/Leantime/leantime,https://leantime.io,true,1024,Ubuntu 26.04,2026-09-28,529,2128,GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.8.1,2026-09-28,2026-09-10
 librechat,LibreChat,ai-chat-interfaces,MIT,https://github.com/danny-avila/LibreChat,https://librechat.ai,true,2048,Ubuntu 26.04,2026-09-28,1115,10109,GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.8.1,2026-09-28,2026-07-14
 linkding,linkding,bookmarks,MIT,https://github.com/sissbruecker/linkding,https://linkding.link,true,256,Ubuntu 26.04,2026-09-28,148,566,GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.8.1,2026-09-28,2026-07-13
+linkstack,LinkStack,link-in-bio,AGPL-3.0,https://github.com/LinkStackOrg/LinkStack,https://linkstack.org,true,256,,,,,,,2026-09-29
+linkwarden,Linkwarden,bookmarks,AGPL-3.0,https://github.com/linkwarden/linkwarden,https://linkwarden.app,true,4096,Ubuntu 26.04,2026-09-29,503,2995,GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.8.1,2026-09-29,2026-09-29
+listmonk,listmonk,newsletter,AGPL-3.0,https://github.com/knadh/listmonk,https://listmonk.app,true,512,Ubuntu 26.04,2026-09-29,66,518,GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.8.1,2026-09-29,2026-09-29
 localai,LocalAI,ai-chat-interfaces,MIT,https://github.com/mudler/LocalAI,https://localai.io,true,4096,Ubuntu 26.04,2026-07-25,,,,,2026-08-14
 mailcow,Mailcow,mail-server,GPL-3.0,https://github.com/mailcow/mailcow-dockerized,https://mailcow.email,true,6144,Ubuntu 26.04,2026-07-25,2220,4965,GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.7.2,2026-08-28,2026-07-25
 mailu,Mailu,mail-server,MIT,https://github.com/Mailu/Mailu,https://mailu.io,true,1024,Ubuntu 26.04,2026-07-25,,,,,2026-07-25
+mastodon,Mastodon,social-network-fediverse,AGPL-3.0,https://github.com/mastodon/mastodon,https://joinmastodon.org,true,2048,,,,,,,2026-09-29
 matomo,Matomo,web-analytics,GPL-3.0-or-later,https://github.com/matomo-org/matomo,https://matomo.org,true,2048,Ubuntu 26.04,2026-09-28,138,1266,GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.8.1,2026-09-28,2026-09-19
 mattermost,Mattermost,team-chat,AGPL-3.0,https://github.com/mattermost/mattermost,https://mattermost.com,true,2048,Ubuntu 26.04,2026-09-28,256,2158,GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.8.1,2026-09-28,2026-09-19
 mealie,Mealie,recipes,AGPL-3.0,https://github.com/mealie-recipes/mealie,https://mealie.io,true,1024,Ubuntu 26.04,2026-09-28,202,1702,GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.8.1,2026-09-28,2026-09-19
 mediawiki,MediaWiki,wiki-docs,GPL-2.0-or-later,https://github.com/wikimedia/mediawiki,https://www.mediawiki.org,false,512,Ubuntu 26.04,2026-09-28,106,2188,GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.8.1,2026-09-28,2026-09-18
 meilisearch,Meilisearch,search-engine,MIT,https://github.com/meilisearch/meilisearch,https://www.meilisearch.com,true,1024,Ubuntu 26.04,2026-09-28,25,459,GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.8.1,2026-09-28,2026-09-27
+memos,Memos,notes,MIT,https://github.com/usememos/memos,https://usememos.com,true,256,Ubuntu 26.04,2026-09-29,16,100,GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.8.1,2026-09-29,2026-09-29
 miniflux,Miniflux,rss-reader,Apache-2.0,https://github.com/miniflux/v2,https://miniflux.app,true,256,Ubuntu 26.04,2026-09-28,49,715,GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.8.1,2026-09-28,2026-09-19
 monica,Monica,crm,AGPL-3.0,https://github.com/monicahq/monica,https://www.monicahq.com,true,1024,Ubuntu 26.04,2026-09-28,209,1575,GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.8.1,2026-09-28,2026-08-04
 n8n,n8n,workflow-automation,Sustainable Use License,https://github.com/n8n-io/n8n,https://n8n.io,true,1024,Ubuntu 26.04,2026-09-28,396,1700,GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.8.1,2026-09-28,2026-07-13
@@ -87,8 +116,10 @@ ntfy,ntfy,push-notifications,Apache-2.0,https://github.com/binwiederhier/ntfy,ht
 odoo,Odoo,erp,LGPL-3.0,https://github.com/odoo/odoo,https://www.odoo.com,true,2048,Ubuntu 26.04,2026-09-28,106,3470,GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.8.1,2026-09-28,2026-08-05
 ollama,Ollama,ai-chat-interfaces,MIT,https://github.com/ollama/ollama,https://ollama.com,true,8192,Ubuntu 26.04,2026-07-25,,,,,2026-08-14
 onedev,OneDev,code-hosting,MIT,https://github.com/theonedev/onedev,https://onedev.io,true,2048,Ubuntu 26.04,2026-09-28,417,1271,GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.8.1,2026-09-28,2026-08-28
+onlyoffice,ONLYOFFICE Docs,office-suite,AGPL-3.0,https://github.com/ONLYOFFICE/DocumentServer,https://www.onlyoffice.com,true,4096,Ubuntu 26.04,2026-09-29,454,4860,GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.8.1,2026-09-29,2026-09-29
 open-webui,Open WebUI,ai-chat-interfaces,Open WebUI License (modified BSD-3-Clause with a branding clause),https://github.com/open-webui/open-webui,https://openwebui.com,true,2048,Ubuntu 26.04,2026-09-28,928,7269,GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.8.1,2026-09-28,2026-07-14
 opencloud,OpenCloud,file-sync-storage,Apache-2.0,https://github.com/opencloud-eu/opencloud,https://opencloud.eu,true,512,,,,,,,2026-09-27
+opengist,Opengist,pastebin,AGPL-3.0,https://github.com/thomiceli/opengist,https://opengist.io,true,256,Ubuntu 26.04,2026-09-29,24,136,GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.8.1,2026-09-29,2026-09-29
 openhands,OpenHands,ai-coding-agents,MIT,https://github.com/OpenHands/OpenHands,https://openhands.dev,false,4096,,,,,,,2026-09-19
 openobserve,OpenObserve,observability,AGPL-3.0,https://github.com/openobserve/openobserve,https://openobserve.ai,true,512,Ubuntu 26.04,2026-09-28,238,556,GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.8.1,2026-09-28,2026-07-14
 openpanel,OpenPanel,web-analytics,AGPL-3.0,https://github.com/Openpanel-dev/openpanel,https://openpanel.dev,true,2048,,,,,,,2026-09-18
@@ -99,6 +130,7 @@ owncloud,ownCloud,file-sync-storage,Apache-2.0,https://github.com/owncloud/ocis,
 pangolin,Pangolin,vpn-mesh-networking,AGPL-3.0,https://github.com/fosrl/pangolin,https://docs.pangolin.net,true,1024,Ubuntu 26.04,2026-07-25,,,,,2026-07-25
 paperless-ngx,Paperless-ngx,documents,GPL-3.0,https://github.com/paperless-ngx/paperless-ngx,https://docs.paperless-ngx.com,true,2048,Ubuntu 26.04,2026-07-25,,,,,2026-07-15
 passbolt,Passbolt,password-manager,AGPL-3.0,https://github.com/passbolt/passbolt_api,https://www.passbolt.com,true,2048,Ubuntu 26.04,2026-09-28,140,1234,GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.8.1,2026-09-28,2026-08-26
+peertube,PeerTube,video-platform,AGPL-3.0,https://github.com/Chocobozzz/PeerTube,https://joinpeertube.org,true,1536,Ubuntu 26.04,2026-09-29,210,3786,GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.8.1,2026-09-29,2026-09-29
 photoprism,PhotoPrism,photo-backup-gallery,AGPL-3.0,https://github.com/photoprism/photoprism,https://photoprism.app,true,2048,,,102,3240,GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.7.2,2026-08-28,2026-09-19
 pihole,Pi-hole,network-wide-ad-blocking,EUPL-1.2,https://github.com/pi-hole/pi-hole,https://pi-hole.net,true,512,Ubuntu 26.04,2026-09-28,10,173,GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.8.1,2026-09-28,2026-09-19
 plane,Plane,project-management,AGPL-3.0,https://github.com/makeplane/plane,https://plane.so,true,4096,Ubuntu 26.04,2026-09-28,1112,4515,GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.8.1,2026-09-28,2026-09-10
@@ -106,24 +138,40 @@ plausible,Plausible,web-analytics,AGPL-3.0,https://github.com/plausible/communit
 plex,Plex,media-server,Proprietary,https://github.com/plexinc/pms-docker,https://www.plex.tv,true,2048,Ubuntu 26.04,2026-09-28,164,516,GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.8.1,2026-09-28,2026-07-13
 pocket-id,Pocket ID,sso-identity,BSD-2-Clause,https://github.com/pocket-id/pocket-id,https://pocket-id.org,true,256,Ubuntu 26.04,2026-08-28,14,112,GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.8.0,2026-09-13,2026-08-28
 pocketbase,PocketBase,backend-baas,MIT,https://github.com/pocketbase/pocketbase,https://pocketbase.io,false,512,Ubuntu 26.04,2026-07-25,,,,,2026-07-25
+privatebin,PrivateBin,pastebin,Zlib,https://github.com/PrivateBin/PrivateBin,https://privatebin.info,true,128,Ubuntu 26.04,2026-09-29,19,205,GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.8.1,2026-09-29,2026-09-29
 prometheus,Prometheus,observability,Apache-2.0,https://github.com/prometheus/prometheus,https://prometheus.io,true,2048,Ubuntu 26.04,2026-09-28,37,364,GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.8.1,2026-09-28,2026-07-25
+prowlarr,Prowlarr,media-automation,GPL-3.0,https://github.com/Prowlarr/Prowlarr,https://prowlarr.com,true,256,Ubuntu 26.04,2026-09-29,99,263,GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.8.1,2026-09-29,2026-09-29
+psitransfer,PsiTransfer,file-sharing,BSD-2-Clause,https://github.com/psi-4ward/psitransfer,https://github.com/psi-4ward/psitransfer,true,256,Ubuntu 26.04,2026-09-29,22,266,GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.8.1,2026-09-29,2026-09-29
 psono,Psono,password-manager,Apache-2.0,https://gitlab.com/esaqa/psono/psono-server,https://psono.com,true,2560,Ubuntu 26.04,2026-08-26,,,,,2026-08-26
+radarr,Radarr,media-automation,GPL-3.0,https://github.com/Radarr/Radarr,https://radarr.video,true,512,Ubuntu 26.04,2026-09-29,108,297,GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.8.1,2026-09-29,2026-09-29
+rallly,Rallly,scheduling,AGPL-3.0,https://github.com/lukevella/rallly,https://rallly.co,true,2048,Ubuntu 26.04,2026-09-29,338,1770,GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.8.1,2026-09-29,2026-09-29
 restic,restic,backup,BSD-2-Clause,https://github.com/restic/restic,https://restic.net,true,512,,,,,,,2026-09-27
 rocket-chat,Rocket.Chat,team-chat,MIT,https://github.com/RocketChat/Rocket.Chat,https://rocket.chat,true,8192,Ubuntu 26.04,2026-09-28,1290,5740,GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.8.1,2026-09-28,2026-09-19
+romm,RomM,game-library,AGPL-3.0,https://github.com/rommapp/romm,https://romm.app,true,2048,Ubuntu 26.04,2026-09-29,,,,,2026-09-29
 rybbit,Rybbit,web-analytics,AGPL-3.0,https://github.com/rybbit-io/rybbit,https://rybbit.com,true,2048,Ubuntu 26.04,2026-09-28,1665,4053,GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.8.1,2026-09-28,2026-09-18
 seafile,Seafile,file-sync-storage,AGPL-3.0,https://github.com/haiwen/seafile-server,https://www.seafile.com,true,2048,,,,,,,2026-09-27
+seerr,Seerr,media-automation,MIT,https://github.com/seerr-team/seerr,https://seerr.dev,true,512,,,,,,,2026-09-29
+sftpgo,SFTPGo,file-sharing,AGPL-3.0,https://github.com/drakkan/sftpgo,https://sftpgo.com,true,256,Ubuntu 26.04,2026-09-29,26,262,GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.8.1,2026-09-29,2026-09-29
+shiori,Shiori,bookmarks,MIT,https://github.com/go-shiori/shiori,https://github.com/go-shiori/shiori,true,256,Ubuntu 26.04,2026-09-29,5,49,GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.8.1,2026-09-29,2026-09-29
+shlink,Shlink,url-shortener,MIT,https://github.com/shlinkio/shlink,https://shlink.io,true,256,Ubuntu 26.04,2026-09-29,94,436,GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.8.1,2026-09-29,2026-09-29
 signoz,SigNoz,observability,MIT,https://github.com/SigNoz/signoz,https://signoz.io,true,4096,Ubuntu 26.04,2026-08-28,501,3426,GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.7.2,2026-08-28,2026-08-28
+silverbullet,SilverBullet,notes,MIT,https://github.com/silverbulletmd/silverbullet,https://silverbullet.md,true,512,Ubuntu 26.04,2026-09-29,,,,,2026-09-29
+snipe-it,Snipe-IT,inventory,AGPL-3.0,https://github.com/grokability/snipe-it,https://snipeitapp.com,true,1024,Ubuntu 26.04,2026-09-29,156,1984,GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.8.1,2026-09-29,2026-09-29
 soft-serve,Soft Serve,code-hosting,MIT,https://github.com/charmbracelet/soft-serve,https://github.com/charmbracelet/soft-serve,true,256,Ubuntu 26.04,2026-09-28,,,,,2026-08-28
+sonarr,Sonarr,media-automation,GPL-3.0,https://github.com/Sonarr/Sonarr,https://sonarr.tv,true,512,Ubuntu 26.04,2026-09-29,95,286,GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.8.1,2026-09-29,2026-09-29
 stalwart,Stalwart,mail-server,AGPL-3.0,https://github.com/stalwartlabs/stalwart,https://stalw.art,true,1024,Ubuntu 26.04,2026-08-28,10,396,GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.7.2,2026-08-28,2026-08-28
+stirling-pdf,Stirling-PDF,pdf-tools,MIT core with proprietary enterprise modules,https://github.com/Stirling-Tools/Stirling-PDF,https://stirling.com,true,2048,Ubuntu 26.04,2026-09-29,,,,,2026-09-29
 suitecrm,SuiteCRM,crm,AGPL-3.0,https://github.com/salesagility/SuiteCRM,https://suitecrm.com,true,2048,Ubuntu 26.04,2026-09-28,105,2156,GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.8.1,2026-09-28,2026-08-08
 supabase,Supabase,backend-baas,Apache-2.0,https://github.com/supabase/supabase,https://supabase.com,true,4096,Ubuntu 26.04,2026-09-28,1285,8372,GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.8.1,2026-09-28,2026-07-15
 swetrix,Swetrix,web-analytics,AGPL-3.0,https://github.com/Swetrix/swetrix,https://swetrix.com,true,2048,,,,,,,2026-09-18
+synapse,Synapse,team-chat,AGPL-3.0,https://github.com/element-hq/synapse,https://element-hq.github.io/synapse/,true,1024,Ubuntu 26.04,2026-09-29,110,499,GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.8.1,2026-09-29,2026-09-29
 syncthing,Syncthing,file-sync-storage,MPL-2.0,https://github.com/syncthing/syncthing,https://syncthing.net,true,256,Ubuntu 26.04,2026-09-28,18,60,GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.8.1,2026-09-28,2026-09-19
 taiga,Taiga,project-management,MPL-2.0,https://github.com/taigaio/taiga-docker,https://taiga.io,true,2048,Ubuntu 26.04,2026-09-28,722,2855,GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.8.1,2026-09-28,2026-09-10
 tandoor,Tandoor Recipes,recipes,AGPL-3.0 with Commons Clause,https://github.com/TandoorRecipes/recipes,https://tandoor.dev,true,1024,,,,,,,2026-09-27
 teampass,TeamPass,password-manager,GPL-3.0,https://github.com/nilsteampassnet/TeamPass,https://www.teampass.net,true,1024,Ubuntu 26.04,2026-09-28,111,1205,GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.8.1,2026-09-28,2026-08-26
 tinyauth,Tinyauth,sso-identity,AGPL-3.0,https://github.com/tinyauthapp/tinyauth,https://tinyauth.app,true,256,Ubuntu 26.04,2026-08-28,8,62,GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.8.0,2026-09-13,2026-08-28
 traefik,Traefik,reverse-proxy,MIT,https://github.com/traefik/traefik,https://traefik.io/traefik,true,256,Ubuntu 26.04,2026-09-28,14,242,GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.8.1,2026-09-28,2026-07-25
+trilium,Trilium Notes,notes,AGPL-3.0,https://github.com/TriliumNext/Trilium,https://triliumnotes.org,true,512,Ubuntu 26.04,2026-09-29,61,490,GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.8.1,2026-09-29,2026-09-29
 twenty,Twenty,crm,AGPL-3.0,https://github.com/twentyhq/twenty,https://twenty.com,true,2048,Ubuntu 26.04,2026-09-28,2232,2539,GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.8.1,2026-09-28,2026-08-08
 typesense,Typesense,search-engine,GPL-3.0,https://github.com/typesense/typesense,https://typesense.org,true,1024,Ubuntu 26.04,2026-09-28,29,1221,GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.8.1,2026-09-28,2026-09-27
 umami,Umami,web-analytics,MIT,https://github.com/umami-software/umami,https://umami.is,true,1024,Ubuntu 26.04,2026-09-28,165,1844,GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.8.1,2026-09-28,2026-09-27
@@ -138,5 +186,7 @@ wiki-js,Wiki.js,wiki-docs,AGPL-3.0,https://github.com/requarks/wiki,https://js.w
 windmill,Windmill,workflow-automation,AGPL-3.0,https://github.com/windmill-labs/windmill,https://www.windmill.dev,true,4096,Ubuntu 26.04,2026-09-28,933,14205,GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.8.1,2026-09-28,2026-09-18
 zabbix,Zabbix,monitoring,AGPL-3.0,https://github.com/zabbix/zabbix,https://www.zabbix.com,true,4096,Ubuntu 26.04,2026-08-27,,,,,2026-08-27
 zammad,Zammad,helpdesk,AGPL-3.0,https://github.com/zammad/zammad,https://zammad.org,true,4096,,,,,,,2026-09-27
+zipline,Zipline,file-sharing,MIT,https://github.com/diced/zipline,https://zipline.diced.sh,true,512,Ubuntu 26.04,2026-09-29,386,1681,GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.8.1,2026-09-29,2026-09-29
 zitadel,Zitadel,sso-identity,AGPL-3.0,https://github.com/zitadel/zitadel,https://zitadel.com,true,2048,Ubuntu 26.04,2026-08-28,235,1193,GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.8.0,2026-09-13,2026-07-13
 zoraxy,Zoraxy,reverse-proxy,AGPL-3.0,https://github.com/tobychui/zoraxy,https://zoraxy.aroz.org,true,256,,,,,,,2026-09-27
+zulip,Zulip,team-chat,Apache-2.0,https://github.com/zulip/zulip,https://zulip.com,true,4096,Ubuntu 26.04,2026-09-29,3259,5129,GCP e2-standard-2 · Ubuntu 26.04 LTS · Docker 29.8.1,2026-09-29,2026-09-29

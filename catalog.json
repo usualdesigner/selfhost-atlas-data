@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-09-29T08:36:33.725Z",
+  "generated_at": "2026-09-29T19:05:34.961Z",
   "license": "CC-BY-4.0",
   "attribution": "SelfHost Atlas — https://selfhostatlas.com",
-  "record_count": 141,
+  "record_count": 191,
   "records": [
     {
       "slug": "activepieces",
@@ -54,6 +54,26 @@
       "difficulty": 2,
       "documented_min_ram_mb": 512,
       "alternative_to_saas": []
+    },
+    {
+      "slug": "affine",
+      "title": "AFFiNE",
+      "category": "notes",
+      "license": "MIT (client) + AFFiNE EE License (server; Community Edition parts MPL-2.0)",
+      "stack": [
+        "TypeScript",
+        "Node.js",
+        "Rust",
+        "PostgreSQL",
+        "Redis"
+      ],
+      "is_self_hostable": true,
+      "is_docker_ready": true,
+      "difficulty": 2,
+      "documented_min_ram_mb": 2048,
+      "alternative_to_saas": [
+        "notion"
+      ]
     },
     {
       "slug": "agentarea",
@@ -175,6 +195,21 @@
       ]
     },
     {
+      "slug": "bazarr",
+      "title": "Bazarr",
+      "category": "media-automation",
+      "license": "GPL-3.0",
+      "stack": [
+        "Python",
+        "React"
+      ],
+      "is_self_hostable": true,
+      "is_docker_ready": true,
+      "difficulty": 2,
+      "documented_min_ram_mb": 256,
+      "alternative_to_saas": []
+    },
+    {
       "slug": "beszel",
       "title": "Beszel",
       "category": "monitoring",
@@ -259,6 +294,38 @@
       "alternative_to_saas": []
     },
     {
+      "slug": "cal-diy",
+      "title": "Cal.diy",
+      "category": "scheduling",
+      "license": "MIT",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "PostgreSQL",
+        "Prisma"
+      ],
+      "is_self_hostable": true,
+      "is_docker_ready": false,
+      "difficulty": 3,
+      "documented_min_ram_mb": 2048,
+      "alternative_to_saas": []
+    },
+    {
+      "slug": "calibre-web",
+      "title": "Calibre-Web",
+      "category": "e-books-comics",
+      "license": "GPL-3.0",
+      "stack": [
+        "Python",
+        "Flask"
+      ],
+      "is_self_hostable": true,
+      "is_docker_ready": true,
+      "difficulty": 2,
+      "documented_min_ram_mb": 512,
+      "alternative_to_saas": []
+    },
+    {
       "slug": "caprover",
       "title": "CapRover",
       "category": "platform-as-a-service",
@@ -313,6 +380,24 @@
       ]
     },
     {
+      "slug": "collabora",
+      "title": "Collabora Online",
+      "category": "office-suite",
+      "license": "MPL-2.0",
+      "stack": [
+        "C++",
+        "JavaScript"
+      ],
+      "is_self_hostable": true,
+      "is_docker_ready": true,
+      "difficulty": 2,
+      "documented_min_ram_mb": 2048,
+      "alternative_to_saas": [
+        "microsoft-365",
+        "google-workspace"
+      ]
+    },
+    {
       "slug": "coolify",
       "title": "Coolify",
       "category": "platform-as-a-service",
@@ -329,6 +414,35 @@
         "heroku",
         "vercel"
       ]
+    },
+    {
+      "slug": "copyparty",
+      "title": "copyparty",
+      "category": "file-sharing",
+      "license": "MIT",
+      "stack": [
+        "Python"
+      ],
+      "is_self_hostable": true,
+      "is_docker_ready": true,
+      "difficulty": 1,
+      "documented_min_ram_mb": 256,
+      "alternative_to_saas": []
+    },
+    {
+      "slug": "dashy",
+      "title": "Dashy",
+      "category": "dashboards",
+      "license": "MIT",
+      "stack": [
+        "Vue",
+        "Node.js"
+      ],
+      "is_self_hostable": true,
+      "is_docker_ready": true,
+      "difficulty": 1,
+      "documented_min_ram_mb": 256,
+      "alternative_to_saas": []
     },
     {
       "slug": "directus",
@@ -557,6 +671,38 @@
       ]
     },
     {
+      "slug": "excalidraw",
+      "title": "Excalidraw",
+      "category": "whiteboard",
+      "license": "MIT",
+      "stack": [
+        "TypeScript",
+        "React"
+      ],
+      "is_self_hostable": true,
+      "is_docker_ready": true,
+      "difficulty": 1,
+      "documented_min_ram_mb": 128,
+      "alternative_to_saas": []
+    },
+    {
+      "slug": "filebrowser-quantum",
+      "title": "FileBrowser Quantum",
+      "category": "file-sync-storage",
+      "license": "Apache-2.0",
+      "stack": [
+        "Go",
+        "Vue"
+      ],
+      "is_self_hostable": true,
+      "is_docker_ready": true,
+      "difficulty": 1,
+      "documented_min_ram_mb": 512,
+      "alternative_to_saas": [
+        "dropbox"
+      ]
+    },
+    {
       "slug": "firefly-iii",
       "title": "Firefly III",
       "category": "personal-finance",
@@ -604,6 +750,22 @@
       "alternative_to_saas": [
         "github"
       ]
+    },
+    {
+      "slug": "formbricks",
+      "title": "Formbricks",
+      "category": "forms-surveys",
+      "license": "AGPL-3.0",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "PostgreSQL"
+      ],
+      "is_self_hostable": true,
+      "is_docker_ready": true,
+      "difficulty": 3,
+      "documented_min_ram_mb": 4096,
+      "alternative_to_saas": []
     },
     {
       "slug": "frappe-crm",
@@ -743,6 +905,20 @@
       ]
     },
     {
+      "slug": "glance",
+      "title": "Glance",
+      "category": "dashboards",
+      "license": "AGPL-3.0",
+      "stack": [
+        "Go"
+      ],
+      "is_self_hostable": true,
+      "is_docker_ready": true,
+      "difficulty": 1,
+      "documented_min_ram_mb": 128,
+      "alternative_to_saas": []
+    },
+    {
       "slug": "glances",
       "title": "Glances",
       "category": "monitoring",
@@ -822,6 +998,22 @@
       "alternative_to_saas": []
     },
     {
+      "slug": "gotosocial",
+      "title": "GoToSocial",
+      "category": "social-network-fediverse",
+      "license": "AGPL-3.0",
+      "stack": [
+        "Go",
+        "SQLite",
+        "PostgreSQL"
+      ],
+      "is_self_hostable": true,
+      "is_docker_ready": true,
+      "difficulty": 2,
+      "documented_min_ram_mb": 1024,
+      "alternative_to_saas": []
+    },
+    {
       "slug": "grafana",
       "title": "Grafana",
       "category": "observability",
@@ -855,6 +1047,22 @@
       "alternative_to_saas": [
         "splunk"
       ]
+    },
+    {
+      "slug": "grocy",
+      "title": "Grocy",
+      "category": "inventory",
+      "license": "MIT",
+      "stack": [
+        "PHP",
+        "Slim",
+        "SQLite"
+      ],
+      "is_self_hostable": true,
+      "is_docker_ready": false,
+      "difficulty": 1,
+      "documented_min_ram_mb": 256,
+      "alternative_to_saas": []
     },
     {
       "slug": "headscale",
@@ -891,6 +1099,38 @@
       ]
     },
     {
+      "slug": "heyform",
+      "title": "HeyForm",
+      "category": "forms-surveys",
+      "license": "AGPL-3.0",
+      "stack": [
+        "TypeScript",
+        "NestJS",
+        "React",
+        "MongoDB"
+      ],
+      "is_self_hostable": true,
+      "is_docker_ready": true,
+      "difficulty": 2,
+      "documented_min_ram_mb": 1024,
+      "alternative_to_saas": []
+    },
+    {
+      "slug": "homarr",
+      "title": "Homarr",
+      "category": "dashboards",
+      "license": "Apache-2.0",
+      "stack": [
+        "TypeScript",
+        "Next.js"
+      ],
+      "is_self_hostable": true,
+      "is_docker_ready": true,
+      "difficulty": 1,
+      "documented_min_ram_mb": 500,
+      "alternative_to_saas": []
+    },
+    {
       "slug": "home-assistant",
       "title": "Home Assistant",
       "category": "home-automation",
@@ -902,6 +1142,38 @@
       "is_docker_ready": true,
       "difficulty": 3,
       "documented_min_ram_mb": 2048,
+      "alternative_to_saas": []
+    },
+    {
+      "slug": "homebox",
+      "title": "Homebox",
+      "category": "inventory",
+      "license": "AGPL-3.0",
+      "stack": [
+        "Go",
+        "Vue",
+        "Nuxt",
+        "SQLite"
+      ],
+      "is_self_hostable": true,
+      "is_docker_ready": true,
+      "difficulty": 1,
+      "documented_min_ram_mb": 256,
+      "alternative_to_saas": []
+    },
+    {
+      "slug": "homepage",
+      "title": "Homepage",
+      "category": "dashboards",
+      "license": "GPL-3.0",
+      "stack": [
+        "JavaScript",
+        "Next.js"
+      ],
+      "is_self_hostable": true,
+      "is_docker_ready": true,
+      "difficulty": 1,
+      "documented_min_ram_mb": 256,
       "alternative_to_saas": []
     },
     {
@@ -940,6 +1212,21 @@
       ]
     },
     {
+      "slug": "it-tools",
+      "title": "IT Tools",
+      "category": "developer-tools",
+      "license": "GPL-3.0",
+      "stack": [
+        "TypeScript",
+        "Vue"
+      ],
+      "is_self_hostable": true,
+      "is_docker_ready": true,
+      "difficulty": 1,
+      "documented_min_ram_mb": 64,
+      "alternative_to_saas": []
+    },
+    {
       "slug": "jan",
       "title": "Jan",
       "category": "ai-chat-interfaces",
@@ -971,6 +1258,22 @@
       "alternative_to_saas": []
     },
     {
+      "slug": "joplin-server",
+      "title": "Joplin Server",
+      "category": "notes",
+      "license": "Joplin Server Personal Use License",
+      "stack": [
+        "TypeScript",
+        "Node.js",
+        "PostgreSQL"
+      ],
+      "is_self_hostable": true,
+      "is_docker_ready": true,
+      "difficulty": 2,
+      "documented_min_ram_mb": 1024,
+      "alternative_to_saas": []
+    },
+    {
       "slug": "karakeep",
       "title": "Karakeep",
       "category": "bookmarks",
@@ -986,6 +1289,22 @@
       "alternative_to_saas": [
         "pocket"
       ]
+    },
+    {
+      "slug": "kavita",
+      "title": "Kavita",
+      "category": "e-books-comics",
+      "license": "GPL-3.0",
+      "stack": [
+        "C#",
+        ".NET",
+        "Angular"
+      ],
+      "is_self_hostable": true,
+      "is_docker_ready": true,
+      "difficulty": 1,
+      "documented_min_ram_mb": 512,
+      "alternative_to_saas": []
     },
     {
       "slug": "keeweb",
@@ -1004,6 +1323,22 @@
       ]
     },
     {
+      "slug": "keila",
+      "title": "Keila",
+      "category": "newsletter",
+      "license": "AGPL-3.0",
+      "stack": [
+        "Elixir",
+        "Phoenix",
+        "PostgreSQL"
+      ],
+      "is_self_hostable": true,
+      "is_docker_ready": true,
+      "difficulty": 2,
+      "documented_min_ram_mb": 512,
+      "alternative_to_saas": []
+    },
+    {
       "slug": "keycloak",
       "title": "Keycloak",
       "category": "sso-identity",
@@ -1019,6 +1354,37 @@
       "alternative_to_saas": [
         "auth0"
       ]
+    },
+    {
+      "slug": "komga",
+      "title": "Komga",
+      "category": "e-books-comics",
+      "license": "MIT",
+      "stack": [
+        "Kotlin",
+        "Spring Boot",
+        "Vue"
+      ],
+      "is_self_hostable": true,
+      "is_docker_ready": true,
+      "difficulty": 1,
+      "documented_min_ram_mb": 1024,
+      "alternative_to_saas": []
+    },
+    {
+      "slug": "komodo",
+      "title": "Komodo",
+      "category": "platform-as-a-service",
+      "license": "GPL-3.0",
+      "stack": [
+        "Rust",
+        "TypeScript"
+      ],
+      "is_self_hostable": true,
+      "is_docker_ready": true,
+      "difficulty": 2,
+      "documented_min_ram_mb": 1024,
+      "alternative_to_saas": []
     },
     {
       "slug": "kopia",
@@ -1048,6 +1414,21 @@
       "is_docker_ready": true,
       "difficulty": 3,
       "documented_min_ram_mb": 3072,
+      "alternative_to_saas": []
+    },
+    {
+      "slug": "kutt",
+      "title": "Kutt",
+      "category": "url-shortener",
+      "license": "MIT",
+      "stack": [
+        "Node.js",
+        "SQLite"
+      ],
+      "is_self_hostable": true,
+      "is_docker_ready": true,
+      "difficulty": 1,
+      "documented_min_ram_mb": 256,
       "alternative_to_saas": []
     },
     {
@@ -1106,6 +1487,54 @@
       ]
     },
     {
+      "slug": "linkstack",
+      "title": "LinkStack",
+      "category": "link-in-bio",
+      "license": "AGPL-3.0",
+      "stack": [
+        "PHP",
+        "Laravel"
+      ],
+      "is_self_hostable": true,
+      "is_docker_ready": true,
+      "difficulty": 1,
+      "documented_min_ram_mb": 256,
+      "alternative_to_saas": []
+    },
+    {
+      "slug": "linkwarden",
+      "title": "Linkwarden",
+      "category": "bookmarks",
+      "license": "AGPL-3.0",
+      "stack": [
+        "TypeScript",
+        "Next.js"
+      ],
+      "is_self_hostable": true,
+      "is_docker_ready": true,
+      "difficulty": 2,
+      "documented_min_ram_mb": 4096,
+      "alternative_to_saas": [
+        "pocket"
+      ]
+    },
+    {
+      "slug": "listmonk",
+      "title": "listmonk",
+      "category": "newsletter",
+      "license": "AGPL-3.0",
+      "stack": [
+        "Go",
+        "Vue",
+        "PostgreSQL"
+      ],
+      "is_self_hostable": true,
+      "is_docker_ready": true,
+      "difficulty": 2,
+      "documented_min_ram_mb": 512,
+      "alternative_to_saas": []
+    },
+    {
       "slug": "localai",
       "title": "LocalAI",
       "category": "ai-chat-interfaces",
@@ -1156,6 +1585,24 @@
       "alternative_to_saas": [
         "google-workspace"
       ]
+    },
+    {
+      "slug": "mastodon",
+      "title": "Mastodon",
+      "category": "social-network-fediverse",
+      "license": "AGPL-3.0",
+      "stack": [
+        "Ruby",
+        "Rails",
+        "Node.js",
+        "PostgreSQL",
+        "Redis"
+      ],
+      "is_self_hostable": true,
+      "is_docker_ready": true,
+      "difficulty": 3,
+      "documented_min_ram_mb": 2048,
+      "alternative_to_saas": []
     },
     {
       "slug": "matomo",
@@ -1239,6 +1686,22 @@
       "alternative_to_saas": [
         "algolia"
       ]
+    },
+    {
+      "slug": "memos",
+      "title": "Memos",
+      "category": "notes",
+      "license": "MIT",
+      "stack": [
+        "Go",
+        "React",
+        "SQLite"
+      ],
+      "is_self_hostable": true,
+      "is_docker_ready": true,
+      "difficulty": 1,
+      "documented_min_ram_mb": 256,
+      "alternative_to_saas": []
     },
     {
       "slug": "miniflux",
@@ -1489,6 +1952,24 @@
       ]
     },
     {
+      "slug": "onlyoffice",
+      "title": "ONLYOFFICE Docs",
+      "category": "office-suite",
+      "license": "AGPL-3.0",
+      "stack": [
+        "JavaScript",
+        "C++"
+      ],
+      "is_self_hostable": true,
+      "is_docker_ready": true,
+      "difficulty": 2,
+      "documented_min_ram_mb": 4096,
+      "alternative_to_saas": [
+        "microsoft-365",
+        "google-workspace"
+      ]
+    },
+    {
       "slug": "open-webui",
       "title": "Open WebUI",
       "category": "ai-chat-interfaces",
@@ -1521,6 +2002,21 @@
       "alternative_to_saas": [
         "dropbox"
       ]
+    },
+    {
+      "slug": "opengist",
+      "title": "Opengist",
+      "category": "pastebin",
+      "license": "AGPL-3.0",
+      "stack": [
+        "Go",
+        "Git"
+      ],
+      "is_self_hostable": true,
+      "is_docker_ready": true,
+      "difficulty": 1,
+      "documented_min_ram_mb": 256,
+      "alternative_to_saas": []
     },
     {
       "slug": "openhands",
@@ -1697,6 +2193,23 @@
       ]
     },
     {
+      "slug": "peertube",
+      "title": "PeerTube",
+      "category": "video-platform",
+      "license": "AGPL-3.0",
+      "stack": [
+        "TypeScript",
+        "Node.js",
+        "PostgreSQL",
+        "Redis"
+      ],
+      "is_self_hostable": true,
+      "is_docker_ready": true,
+      "difficulty": 3,
+      "documented_min_ram_mb": 1536,
+      "alternative_to_saas": []
+    },
+    {
       "slug": "photoprism",
       "title": "PhotoPrism",
       "category": "photo-backup-gallery",
@@ -1812,6 +2325,21 @@
       ]
     },
     {
+      "slug": "privatebin",
+      "title": "PrivateBin",
+      "category": "pastebin",
+      "license": "Zlib",
+      "stack": [
+        "PHP",
+        "JavaScript"
+      ],
+      "is_self_hostable": true,
+      "is_docker_ready": true,
+      "difficulty": 1,
+      "documented_min_ram_mb": 128,
+      "alternative_to_saas": []
+    },
+    {
       "slug": "prometheus",
       "title": "Prometheus",
       "category": "observability",
@@ -1825,6 +2353,39 @@
       "documented_min_ram_mb": 2048,
       "alternative_to_saas": [
         "datadog"
+      ]
+    },
+    {
+      "slug": "prowlarr",
+      "title": "Prowlarr",
+      "category": "media-automation",
+      "license": "GPL-3.0",
+      "stack": [
+        "C#",
+        ".NET",
+        "React"
+      ],
+      "is_self_hostable": true,
+      "is_docker_ready": true,
+      "difficulty": 2,
+      "documented_min_ram_mb": 256,
+      "alternative_to_saas": []
+    },
+    {
+      "slug": "psitransfer",
+      "title": "PsiTransfer",
+      "category": "file-sharing",
+      "license": "BSD-2-Clause",
+      "stack": [
+        "Node.js",
+        "Vue"
+      ],
+      "is_self_hostable": true,
+      "is_docker_ready": true,
+      "difficulty": 1,
+      "documented_min_ram_mb": 256,
+      "alternative_to_saas": [
+        "dropbox"
       ]
     },
     {
@@ -1844,6 +2405,39 @@
       "alternative_to_saas": [
         "1password"
       ]
+    },
+    {
+      "slug": "radarr",
+      "title": "Radarr",
+      "category": "media-automation",
+      "license": "GPL-3.0",
+      "stack": [
+        "C#",
+        ".NET",
+        "React"
+      ],
+      "is_self_hostable": true,
+      "is_docker_ready": true,
+      "difficulty": 2,
+      "documented_min_ram_mb": 512,
+      "alternative_to_saas": []
+    },
+    {
+      "slug": "rallly",
+      "title": "Rallly",
+      "category": "scheduling",
+      "license": "AGPL-3.0",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "PostgreSQL",
+        "Prisma"
+      ],
+      "is_self_hostable": true,
+      "is_docker_ready": true,
+      "difficulty": 2,
+      "documented_min_ram_mb": 2048,
+      "alternative_to_saas": []
     },
     {
       "slug": "restic",
@@ -1875,6 +2469,22 @@
       "alternative_to_saas": [
         "slack"
       ]
+    },
+    {
+      "slug": "romm",
+      "title": "RomM",
+      "category": "game-library",
+      "license": "AGPL-3.0",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Vue"
+      ],
+      "is_self_hostable": true,
+      "is_docker_ready": true,
+      "difficulty": 2,
+      "documented_min_ram_mb": 2048,
+      "alternative_to_saas": []
     },
     {
       "slug": "rybbit",
@@ -1914,6 +2524,66 @@
       ]
     },
     {
+      "slug": "seerr",
+      "title": "Seerr",
+      "category": "media-automation",
+      "license": "MIT",
+      "stack": [
+        "TypeScript",
+        "Node.js",
+        "Next.js"
+      ],
+      "is_self_hostable": true,
+      "is_docker_ready": true,
+      "difficulty": 2,
+      "documented_min_ram_mb": 512,
+      "alternative_to_saas": []
+    },
+    {
+      "slug": "sftpgo",
+      "title": "SFTPGo",
+      "category": "file-sharing",
+      "license": "AGPL-3.0",
+      "stack": [
+        "Go"
+      ],
+      "is_self_hostable": true,
+      "is_docker_ready": true,
+      "difficulty": 2,
+      "documented_min_ram_mb": 256,
+      "alternative_to_saas": []
+    },
+    {
+      "slug": "shiori",
+      "title": "Shiori",
+      "category": "bookmarks",
+      "license": "MIT",
+      "stack": [
+        "Go"
+      ],
+      "is_self_hostable": true,
+      "is_docker_ready": true,
+      "difficulty": 1,
+      "documented_min_ram_mb": 256,
+      "alternative_to_saas": [
+        "pocket"
+      ]
+    },
+    {
+      "slug": "shlink",
+      "title": "Shlink",
+      "category": "url-shortener",
+      "license": "MIT",
+      "stack": [
+        "PHP"
+      ],
+      "is_self_hostable": true,
+      "is_docker_ready": true,
+      "difficulty": 2,
+      "documented_min_ram_mb": 256,
+      "alternative_to_saas": []
+    },
+    {
       "slug": "signoz",
       "title": "SigNoz",
       "category": "observability",
@@ -1933,6 +2603,38 @@
       ]
     },
     {
+      "slug": "silverbullet",
+      "title": "SilverBullet",
+      "category": "notes",
+      "license": "MIT",
+      "stack": [
+        "Rust",
+        "TypeScript",
+        "Lua"
+      ],
+      "is_self_hostable": true,
+      "is_docker_ready": true,
+      "difficulty": 1,
+      "documented_min_ram_mb": 512,
+      "alternative_to_saas": []
+    },
+    {
+      "slug": "snipe-it",
+      "title": "Snipe-IT",
+      "category": "inventory",
+      "license": "AGPL-3.0",
+      "stack": [
+        "PHP",
+        "Laravel",
+        "MariaDB"
+      ],
+      "is_self_hostable": true,
+      "is_docker_ready": true,
+      "difficulty": 2,
+      "documented_min_ram_mb": 1024,
+      "alternative_to_saas": []
+    },
+    {
       "slug": "soft-serve",
       "title": "Soft Serve",
       "category": "code-hosting",
@@ -1944,6 +2646,22 @@
       "is_docker_ready": true,
       "difficulty": 2,
       "documented_min_ram_mb": 256,
+      "alternative_to_saas": []
+    },
+    {
+      "slug": "sonarr",
+      "title": "Sonarr",
+      "category": "media-automation",
+      "license": "GPL-3.0",
+      "stack": [
+        "C#",
+        ".NET",
+        "React"
+      ],
+      "is_self_hostable": true,
+      "is_docker_ready": true,
+      "difficulty": 2,
+      "documented_min_ram_mb": 512,
       "alternative_to_saas": []
     },
     {
@@ -1962,6 +2680,22 @@
         "google-workspace",
         "microsoft-365"
       ]
+    },
+    {
+      "slug": "stirling-pdf",
+      "title": "Stirling-PDF",
+      "category": "pdf-tools",
+      "license": "MIT core with proprietary enterprise modules",
+      "stack": [
+        "Java",
+        "Spring Boot",
+        "TypeScript"
+      ],
+      "is_self_hostable": true,
+      "is_docker_ready": true,
+      "difficulty": 1,
+      "documented_min_ram_mb": 2048,
+      "alternative_to_saas": []
     },
     {
       "slug": "suitecrm",
@@ -2015,6 +2749,25 @@
       "documented_min_ram_mb": 2048,
       "alternative_to_saas": [
         "google-analytics"
+      ]
+    },
+    {
+      "slug": "synapse",
+      "title": "Synapse",
+      "category": "team-chat",
+      "license": "AGPL-3.0",
+      "stack": [
+        "Python",
+        "Rust",
+        "SQLite",
+        "PostgreSQL"
+      ],
+      "is_self_hostable": true,
+      "is_docker_ready": true,
+      "difficulty": 2,
+      "documented_min_ram_mb": 1024,
+      "alternative_to_saas": [
+        "slack"
       ]
     },
     {
@@ -2110,6 +2863,24 @@
       "difficulty": 3,
       "documented_min_ram_mb": 256,
       "alternative_to_saas": []
+    },
+    {
+      "slug": "trilium",
+      "title": "Trilium Notes",
+      "category": "notes",
+      "license": "AGPL-3.0",
+      "stack": [
+        "TypeScript",
+        "Node.js",
+        "SQLite"
+      ],
+      "is_self_hostable": true,
+      "is_docker_ready": true,
+      "difficulty": 1,
+      "documented_min_ram_mb": 512,
+      "alternative_to_saas": [
+        "notion"
+      ]
     },
     {
       "slug": "twenty",
@@ -2356,6 +3127,23 @@
       ]
     },
     {
+      "slug": "zipline",
+      "title": "Zipline",
+      "category": "file-sharing",
+      "license": "MIT",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Fastify",
+        "PostgreSQL"
+      ],
+      "is_self_hostable": true,
+      "is_docker_ready": true,
+      "difficulty": 2,
+      "documented_min_ram_mb": 512,
+      "alternative_to_saas": []
+    },
+    {
       "slug": "zitadel",
       "title": "Zitadel",
       "category": "sso-identity",
@@ -2384,6 +3172,25 @@
       "difficulty": 2,
       "documented_min_ram_mb": 256,
       "alternative_to_saas": []
+    },
+    {
+      "slug": "zulip",
+      "title": "Zulip",
+      "category": "team-chat",
+      "license": "Apache-2.0",
+      "stack": [
+        "Python",
+        "Django",
+        "PostgreSQL",
+        "RabbitMQ"
+      ],
+      "is_self_hostable": true,
+      "is_docker_ready": true,
+      "difficulty": 3,
+      "documented_min_ram_mb": 4096,
+      "alternative_to_saas": [
+        "slack"
+      ]
     }
   ]
 }
